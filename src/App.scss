@@ -1,0 +1,13 @@
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	font-family: inherit;
+	font-size: inherit;
+}
+
+.App {
+	text-align: center;
+	padding: 2vw;
+}

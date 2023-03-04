@@ -1,0 +1,46 @@
+.add-user {
+	font-size: 1.5vw;
+	display: flex;
+
+	align-items: center;
+	flex-direction: column;
+	gap: 2vw;
+}
+
+.user {
+	border: 1px solid black;
+	padding: 1.5vw;
+}
+
+form {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 2vw;
+	gap: 1vw;
+
+	& > .name {
+		display: flex;
+		gap: 0.5vw;
+
+		& > input {
+			flex-grow: 1;
+		}
+	}
+}
+
+input {
+	padding: 0.5vw;
+}
+
+input[type='submit'] {
+	background: transparent;
+	outline: none;
+	border: 1px solid black;
+	cursor: pointer;
+	transition: all 200ms;
+
+	&:hover {
+		background-color: burlywood;
+	}
+}

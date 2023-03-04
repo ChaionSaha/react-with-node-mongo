@@ -1,0 +1,23 @@
+.user {
+	border: 1px solid black;
+	display: flex;
+	flex-direction: column;
+	gap: 0.5vw;
+}
+
+.btns {
+	margin-top: 2vw;
+	display: flex;
+	justify-content: center;
+	gap: 2vw;
+
+	& > svg {
+		width: 2vw;
+		cursor: pointer;
+		transition: all 200ms;
+
+		&:hover {
+			color: burlywood;
+		}
+	}
+}

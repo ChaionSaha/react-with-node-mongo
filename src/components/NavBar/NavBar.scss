@@ -1,0 +1,16 @@
+.navbar {
+	font-size: 2vw;
+	margin-bottom: 3vw;
+	& > a:visited,
+	& > a:link {
+		transition: all 150ms;
+		color: black;
+		&:not(:last-of-type) {
+			margin-right: 2vw;
+		}
+
+		&:hover {
+			color: coral;
+		}
+	}
+}
