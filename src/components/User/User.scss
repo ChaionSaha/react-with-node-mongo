@@ -11,10 +11,11 @@
 	justify-content: center;
 	gap: 2vw;
 
-	& > svg {
+	& svg {
+		color: black;
 		width: 2vw;
 		cursor: pointer;
-		transition: all 200ms;
+		// transition: all 200ms;
 
 		&:hover {
 			color: burlywood;

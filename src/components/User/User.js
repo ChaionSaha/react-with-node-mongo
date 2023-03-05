@@ -1,5 +1,6 @@
 import { PencilSquareIcon, TrashIcon } from '@heroicons/react/24/outline';
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './User.scss';
 
 const User = ({ user }) => {
@@ -11,7 +12,9 @@ const User = ({ user }) => {
 			<p className='email'>Email: {user.email}</p>
 			<p className='phone'>Phone: {user.mobile}</p>
 			<div className='btns'>
-				<PencilSquareIcon></PencilSquareIcon>
+				<Link to={`/user/${user._id}`}>
+					<PencilSquareIcon></PencilSquareIcon>
+				</Link>
 				<TrashIcon></TrashIcon>
 			</div>
 		</div>

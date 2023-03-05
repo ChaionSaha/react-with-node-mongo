@@ -43,7 +43,7 @@ const AddUser = () => {
 					<input
 						type='text'
 						name='lastName'
-						placeholder=' Last Name'
+						placeholder='Last Name'
 					/>
 				</div>
 				<input type='email' name='email' placeholder='Email' />

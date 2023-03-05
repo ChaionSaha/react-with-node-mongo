@@ -39,8 +39,10 @@ input[type='submit'] {
 	border: 1px solid black;
 	cursor: pointer;
 	transition: all 200ms;
+	padding: 1vw 0;
 
 	&:hover {
-		background-color: burlywood;
+		background-color: green;
+		color: aliceblue;
 	}
 }
